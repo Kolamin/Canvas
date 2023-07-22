@@ -18,3 +18,6 @@ c.lineTo(300, 100);
 c.lineTo(400, 300);
 c.strokeStyle = "#fa34a3";
 c.stroke();
+
+// Arc / Circle
+c.arc(300, 300, 30, 0, Math.PI * 2, false);
